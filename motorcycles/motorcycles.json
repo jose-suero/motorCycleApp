@@ -1,0 +1,66 @@
+[
+	{
+		Id: 1,
+		Nombre: "Ducati 1199 Superleggera",
+		Precio: 65000,
+		Descripcion: "",
+		Cilindrada: "",
+		Tamano: "",
+		Award: "Best Superbike"
+		Peso: 155
+		IdFabricante: 1, //Ducati, 200hp
+		IdMotor: 1
+
+	},
+	{
+		Id: 2,
+		Nombre: "Indian Chief Classic",
+		Precio: 24795,
+		Descripcion: "",
+		Cilindrada: "",
+		Tamano: "",
+		Award: "Best Cruiser"
+		Peso: 370
+		IdFabricante: 1, //Indian Chief, 74hp
+		IdMotor: 1
+
+	},
+	{
+		Id: 3,
+		Nombre: "KTM 500 EXC",
+		Precio: 9899,
+		Descripcion: "",
+		Cilindrada: "",
+		Tamano: "",
+		Award: "Best Dual-Sport/Enduro"
+		Peso: 370
+		IdFabricante: 1, //KTM, 60hp
+		IdMotor: 1
+
+	},
+	{
+		Id: 4,
+		Nombre: "Yamaha FZ-09",
+		Precio: 7990,
+		Descripcion: "",
+		Cilindrada: "",
+		Tamano: "",
+		Award: "Best Middleweight Streetbike"
+		Peso: 188
+		IdFabricante: 1, //Yamaha, 107hp
+		IdMotor: 1
+
+	},
+	{
+		Id: 5,
+		Nombre: "BMW R1200RT",
+		Precio: 17650,
+		Descripcion: "",
+		Cilindrada: "",
+		Tamano: "",
+		Award: "Best Sport-Touring Bike"
+		Peso: 233
+		IdFabricante: 1, //BMW, 125hp
+		IdMotor: 1
+	}
+]
