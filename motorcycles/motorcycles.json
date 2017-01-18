@@ -1,66 +1,64 @@
 [
 	{
-		Id: 1,
-		Nombre: "Ducati 1199 Superleggera",
-		Precio: 65000,
-		Descripcion: "",
-		Cilindrada: "",
-		Tamano: "",
-		Award: "Best Superbike"
-		Peso: 155
-		IdFabricante: 1, //Ducati, 200hp
-		IdMotor: 1
+		"Id": 1,
+		"Nombre": "Ducati 1199 Superleggera",
+		"Precio": 65000,
+		"Descripcion": "La firma boloñesa ya tiene lista su Panigale 1199 Superleggera, una bestia de 200 CV y tan solo 155 kilos de peso. Una moto con la última tecnología de la marca en competición pero con matrícula, faro e intermitentes",
+		"Cilindrada": 1199,
+		"Tamano": { "Longitud": 2075, "Altura": 1100 },
+		"Award": "Best Superbike",
+		"Peso": 155,
+		"IdFabricante": 1,
+		"IdMotor": 1
 
 	},
 	{
-		Id: 2,
-		Nombre: "Indian Chief Classic",
-		Precio: 24795,
-		Descripcion: "",
-		Cilindrada: "",
-		Tamano: "",
-		Award: "Best Cruiser"
-		Peso: 370
-		IdFabricante: 1, //Indian Chief, 74hp
-		IdMotor: 1
+		"Id": 2,
+		"Nombre": "Indian Chief Classic",
+		"Precio": 24795,
+		"Descripcion": "Abundante potencia. Estilo atemporal. Innovación sin descanso. Y en su corazón, el legendario motor bicilíndrico en V Thunder Stroke 111. Esta es nuestra motocicleta más adornada hasta ahora. Después de un paseo, sabrás exactamente por qué. Sé legendario.",
+		"Cilindrada": 1811,
+		"Tamano": { "Longitud": 2634, "Altura": 1176 },
+		"Award": "Best Cruiser",
+		"Peso": 370,
+		"IdFabricante": 2,
+		"IdMotor": 2
 
 	},
 	{
-		Id: 3,
-		Nombre: "KTM 500 EXC",
-		Precio: 9899,
-		Descripcion: "",
-		Cilindrada: "",
-		Tamano: "",
-		Award: "Best Dual-Sport/Enduro"
-		Peso: 370
-		IdFabricante: 1, //KTM, 60hp
-		IdMotor: 1
-
+		"Id": 3,
+		"Nombre": "KTM 500 EXC",
+		"Precio": 9899,
+		"Descripcion": "La moto 500 EXC-F es el modelo Enduro más poderoso del mundo, sin que ello la convierta en un abusón. Esta motocicleta es tan estilizada y civilizada como un purasangre de carreras. Pero basta con darle gas para que su nuevo motor SOHC de 4 tiempos haga volar el chasis rediseñado sobre cualquier terreno. Probablemente por delante de los competidores. Nada de sudor, solo gloria.",
+		"Cilindrada": 1790,
+		"Tamano": { "Longitud": 1890, "Altura": 990 },
+		"Award": "Best Dual-Sport/Enduro",
+		"Peso": 370,
+		"IdFabricante": 3,
+		"IdMotor": 3
 	},
 	{
-		Id: 4,
-		Nombre: "Yamaha FZ-09",
-		Precio: 7990,
-		Descripcion: "",
-		Cilindrada: "",
-		Tamano: "",
-		Award: "Best Middleweight Streetbike"
-		Peso: 188
-		IdFabricante: 1, //Yamaha, 107hp
-		IdMotor: 1
-
+		"Id": 4,
+		"Nombre": "Yamaha FZ-09",
+		"Precio": 7990,
+		"Descripcion": "La Yamaha MT-09 (FZ-09 en América del Norte) es un  motocicleta estándar de motor en línea tricilíndrica de 847 cc (51.7 cu en). Tiene el nuevo motor tipo \"desaxé\", un marco de aleación de aluminio, y horquilla invertida.",
+		"Cilindrada": 1680,
+		"Tamano": { "Longitud": 2234, "Altura": 1109 },
+		"Award": "Best Middleweight Streetbike",
+		"Peso": 188,
+		"IdFabricante": 1,
+		"IdMotor": 1
 	},
 	{
-		Id: 5,
-		Nombre: "BMW R1200RT",
-		Precio: 17650,
-		Descripcion: "",
-		Cilindrada: "",
-		Tamano: "",
-		Award: "Best Sport-Touring Bike"
-		Peso: 233
-		IdFabricante: 1, //BMW, 125hp
-		IdMotor: 1
+		"Id": 5,
+		"Nombre": "BMW R1200RT",
+		"Precio": 17650,
+		"Descripcion": "Más comodidad para una mayor sensación de emoción. Una motocicleta que definió el segmento de la motocicleta Touring alcanza ahora la siguiente etapa de su evolución: la BMW R 1200 RT. Con su fácil manejo, la R 1200 RT hace posible disfrutar de lo más importante: conducir admirando el paisaje. Tú solo o con un acompañante: la R 1200 RT representa la comodidad, la conducción relajada en cada viaje.",
+		"Cilindrada": 1900,
+		"Tamano": { "Longitud": 2545, "Altura": 1134 },
+		"Award": "Best Sport-Touring Bike",
+		"Peso": 233,
+		"IdFabricante": 1,
+		"IdMotor": 2
 	}
 ]

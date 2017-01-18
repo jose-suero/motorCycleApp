@@ -1,0 +1,29 @@
+[
+  {
+    "Arranque": "Eléctrico",
+    "IdMotor": 1,
+    "Marchas": 4,
+    "Nombre": "Superquadro",
+    "Potencia": 200,
+    "Tipo": "Bicilíndrico en L",
+    "Transmision": "Cadena"
+  },
+  {
+    "Arranque": "Eléctrico",
+    "IdMotor": 2,
+    "Marchas": 4,
+    "Nombre": "V Thunder Stroke 111",
+    "Potencia": 74,
+    "Tipo": "Bicilíndrico en V",
+    "Transmision": "Embrague húmedo de transmisión de la marcha"
+  },
+  {
+    "Arranque": "Eléctrico",
+    "IdMotor": 3,
+    "Marchas": 6,
+    "Nombre": "EXC-F",
+    "Potencia": 60,
+    "Tipo": "Monocilíndrico",
+    "Transmision": "Cadena"
+  }
+]

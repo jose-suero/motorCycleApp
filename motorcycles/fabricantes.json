@@ -1,0 +1,17 @@
+[
+	{
+		"IdFabricante": 1,
+		"Nombre": "Ducati",
+		"PaisDeOrigen": "Bolonia"
+	},
+	{
+		"IdFabricante": 2,
+		"Nombre": "Indian Motorcycle",
+		"PaisDeOrigen": "E.E.U.U."
+	},
+	{
+		"IdFabricante": 3,
+		"Nombre": "KTM Sportmotorcycle",
+		"PaisDeOrigen": "Austria"
+	}
+]
