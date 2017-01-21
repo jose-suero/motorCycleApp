@@ -1,11 +1,15 @@
 'use strict';
+var app = angular.module('motorcycleApp', ['ngRoute'])
 
-var motorcycleApp = angular.module('motorcycleApp', ['ngRoute']);
-
-motorcycleApp.config(function($routeProvider, $locationProvider) {
-	debugger;
-	$routeProvider.when('/motorcyle/:motoId', {
-		templateUrl: 'index.html',
-		controller: motorcycleController
+.config(function($routeProvider){
+	$routeProvider
+    .when('/', {
+	 	template: '<H1>Home</H1>'
 	})
+	.when('/motorcycle', {
+		template: '<H1>Motorcycle</H1>'
+	});
+	// .otherwise({
+	// 	redirectTo: '/'
+	// });
 });

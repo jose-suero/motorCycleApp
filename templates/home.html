@@ -1,0 +1,13 @@
+<div>
+    Ordenar por: 
+    <button ng-click="sortBy('Nombre')">Nombre<span class="sortorder" ng-show="propertyName === 'Nombre'" ng-class="{reverse: reverse}"></span></button>,
+    <button ng-click="sortBy('Precio')">Precio<span class="sortorder" ng-show="propertyName === 'Precio'" ng-class="{reverse: reverse}"></span></button>
+</div>
+
+<ul>
+    <li ng-repeat="motorcycle in motorcycles | orderBy:propertyName:reverse">
+        <h3><a href="/motorcycle/{{motorcycle.Id}}">{{motorcycle.Nombre}}</a></h3>
+        <aside>{{motorcycle.Precio}}</aside>
+        <p>{{motorcycle.Descripcion}}</p>
+    </li>
+</ul>
