@@ -7,6 +7,8 @@
     <meta name="description" content="Aplicación para motocicletas">
     <meta name="author" content="José Suero">
 
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
     <script src="js/angular.js"></script>
     <script src="js/angular-route.js"></script>
     <script src="js/app.js"></script>
@@ -15,12 +17,18 @@
 
 <body>
     <div ng-controller="motorcycleAppController">
+        <h1>Listado de Motocicletas</h1>
+
+        <div>
+            Ordenar por: 
+            <button ng-click="sortBy('Nombre')">Nombre<span class="sortorder" ng-show="propertyName === 'Nombre'" ng-class="{reverse: reverse}"></span></button>,
+            <button ng-click="sortBy('Precio')">Precio<span class="sortorder" ng-show="propertyName === 'Precio'" ng-class="{reverse: reverse}"></span></button>
+        </div>
+        
         <ul>
-            <li ng-repeat="motorcycle in motorcycles">
-                <div>
-                    <h3><a href="/motorcycle/{{motorcycle.Id}}">{{motorcycle.Nombre}}</a></h3>
-                    <p>{{motorcycle.Descripcion}}</p>
-                </div>
+            <li ng-repeat="motorcycle in motorcycles | orderBy:propertyName:reverse">
+                <h3>{{motorcycle.Nombre}}</h3>
+                <p>{{motorcycle.Descripcion}}</p>
             </li>
         </ul>
     </div>
