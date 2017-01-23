@@ -1,0 +1,19 @@
+{
+	"Id": 4,
+	"Nombre": "Yamaha FZ-09",
+	"Precio": 7990,
+	"Descripcion": "La Yamaha MT-09 (FZ-09 en América del Norte) es un  motocicleta estándar de motor en línea tricilíndrica de 847 cc (51.7 cu en). Tiene el nuevo motor tipo \"desaxé\", un marco de aleación de aluminio, y horquilla invertida.",
+	"Cilindrada": 1680,
+	"Tamano": { "Longitud": 2234, "Altura": 1109 },
+	"Award": "Best Middleweight Streetbike",
+	"Peso": 188,
+	"IdFabricante": 1,
+	"IdMotor": 1,
+	"Imagenes": [
+		"img/yamaha1.jpg",
+		"img/yamaha2.jpg",
+		"img/yamaha3.jpg",
+		"img/yamaha4.jpg",
+		"img/yamaha5.jpg"
+	]
+}

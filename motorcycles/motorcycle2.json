@@ -1,0 +1,19 @@
+{
+	"Id": 2,
+	"Nombre": "Indian Chief Classic",
+	"Precio": 24795,
+	"Descripcion": "Abundante potencia. Estilo atemporal. Innovación sin descanso. Y en su corazón, el legendario motor bicilíndrico en V Thunder Stroke 111. Esta es nuestra motocicleta más adornada hasta ahora. Después de un paseo, sabrás exactamente por qué. Sé legendario.",
+	"Cilindrada": 1811,
+	"Tamano": { "Longitud": 2634, "Altura": 1176 },
+	"Award": "Best Cruiser",
+	"Peso": 370,
+	"IdFabricante": 2,
+	"IdMotor": 2,
+	"Imagenes": [
+		"img/indianchef1.jpg",
+		"img/indianchef2.jpg",
+		"img/indianchef3.jpg",
+		"img/indianchef4.jpg",
+		"img/indianchef5.jpg"
+	]
+}

@@ -1,0 +1,9 @@
+{
+"Arranque": "Eléctrico",
+"IdMotor": 3,
+"Marchas": 6,
+"Nombre": "EXC-F",
+"Potencia": 60,
+"Tipo": "Monocilíndrico",
+"Transmision": "Cadena"
+}

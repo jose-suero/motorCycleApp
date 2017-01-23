@@ -1,0 +1,19 @@
+{
+	"Id": 3,
+	"Nombre": "KTM 500 EXC",
+	"Precio": 9899,
+	"Descripcion": "La moto 500 EXC-F es el modelo Enduro más poderoso del mundo, sin que ello la convierta en un abusón. Esta motocicleta es tan estilizada y civilizada como un purasangre de carreras. Pero basta con darle gas para que su nuevo motor SOHC de 4 tiempos haga volar el chasis rediseñado sobre cualquier terreno. Probablemente por delante de los competidores. Nada de sudor, solo gloria.",
+	"Cilindrada": 1790,
+	"Tamano": { "Longitud": 1890, "Altura": 990 },
+	"Award": "Best Dual-Sport/Enduro",
+	"Peso": 370,
+	"IdFabricante": 3,
+	"IdMotor": 3,
+	"Imagenes": [
+		"img/ktm1.jpg",
+		"img/ktm2.jpg",
+		"img/ktm3.jpg",
+		"img/ktm4.jpg",
+		"img/ktm5.jpg"
+	]
+}

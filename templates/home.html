@@ -1,13 +1,33 @@
-<div>
-    Ordenar por: 
-    <button ng-click="sortBy('Nombre')">Nombre<span class="sortorder" ng-show="propertyName === 'Nombre'" ng-class="{reverse: reverse}"></span></button>,
-    <button ng-click="sortBy('Precio')">Precio<span class="sortorder" ng-show="propertyName === 'Precio'" ng-class="{reverse: reverse}"></span></button>
+<div class="blog-header">
+	<h1 class="blog-title">Listado de Motocicletas</h1>
+	<p class="lead blog-description">Vea la lista de motocicletas investigadas por nosotros y profundice en sus detalles haciendo clic sobre su nombre.</p>
 </div>
 
-<ul>
-    <li ng-repeat="motorcycle in motorcycles | orderBy:propertyName:reverse">
-        <h3><a href="/motorcycle/{{motorcycle.Id}}">{{motorcycle.Nombre}}</a></h3>
-        <aside>{{motorcycle.Precio}}</aside>
-        <p>{{motorcycle.Descripcion}}</p>
-    </li>
-</ul>
+<div class="row">
+	<div class="col-sm-7 blog-main">
+		<ul>
+			<li ng-repeat="motorcycle in motorcycles | orderBy:propertyName:reverse" class="thumbnail">
+		        <a ng-href="#/motorcycles/{{motorcycle.Id}}/"><strong>{{motorcycle.Nombre}}</strong></a>
+		        <p>${{motorcycle.Precio}}</p>
+		        <p>{{motorcycle.Descripcion}}</p>
+			</li>
+		</ul>
+	</div>
+
+	<div class="col-sm-5 blog-sidebar">
+		<form class="form-horizontal" role="form">
+			<label for="orderProperty" class="col-sm-2 control-label"></label>
+			<div class="col-sm-7">
+				<select class="form-control" name="orderProperty" ng-model="propertyName">
+					<option selected value="Nombre">Nombre</option>
+					<option value="Precio">Precio</option>
+				</select>
+			</div>
+			<div class="col-sm-3">
+				<button class="btn btn-default" ng-click="reverse = !reverse">
+					<span class="sortorder" ng-class="{reverse: reverse}"></span>
+				</button>
+			</div>
+		</form>
+	</div>
+</div>

@@ -1,0 +1,9 @@
+{
+"Arranque": "Eléctrico",
+"IdMotor": 1,
+"Marchas": 4,
+"Nombre": "Superquadro",
+"Potencia": 200,
+"Tipo": "Bicilíndrico en L",
+"Transmision": "Cadena"
+}

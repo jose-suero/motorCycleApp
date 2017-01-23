@@ -1,15 +1,26 @@
 'use strict';
-var app = angular.module('motorcycleApp', ['ngRoute'])
+var app = angular.module('motorcycleApp', [
+	'motorcycleAppControllers', 
+	'motorcycleAppServices', 
+	'ngRoute'
+]);
 
-.config(function($routeProvider){
+app.config(function($routeProvider){ //, $locationProvider){
 	$routeProvider
-    .when('/', {
-	 	template: '<H1>Home</H1>'
+    .when('/motorcycles', {
+	 	templateUrl: 'templates/home.html',
+	 	controller: 'homeController'
 	})
-	.when('/motorcycle', {
-		template: '<H1>Motorcycle</H1>'
+	.when('/motorcycles/:motorcycleId/', {
+		templateUrl: 'templates/motorcycle.html',
+		controller: 'motorcycleDetailsController'
+	})
+	.otherwise({
+		redirectTo: '/motorcycles'
 	});
-	// .otherwise({
-	// 	redirectTo: '/'
-	// });
+
+    // configure html5 to get links working on jsfiddle
+    // $locationProvider.html5Mode({
+    // 	enabled: true
+    // });
 });

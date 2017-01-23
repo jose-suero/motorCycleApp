@@ -1,0 +1,19 @@
+{
+	"Id": 1,
+	"Nombre": "Ducati 1199 Superleggera",
+	"Precio": 65000,
+	"Descripcion": "La firma boloñesa ya tiene lista su Panigale 1199 Superleggera, una bestia de 200 CV y tan solo 155 kilos de peso. Una moto con la última tecnología de la marca en competición pero con matrícula, faro e intermitentes",
+	"Cilindrada": 1199,
+	"Tamano": { "Longitud": 2075, "Altura": 1100 },
+	"Award": "Best Superbike",
+	"Peso": 155,
+	"IdFabricante": 1,
+	"IdMotor": 1,
+	"Imagenes": [
+		"img/ducati1.jpg",
+		"img/ducati2.jpg",
+		"img/ducati3.jpg",
+		"img/ducati4.jpg",
+		"img/ducati5.jpg"
+	]
+}
