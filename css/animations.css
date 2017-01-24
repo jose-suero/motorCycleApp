@@ -1,0 +1,43 @@
+.motorcycle-list.ng-enter,
+.motorcycle-list.ng-move,
+.motorcycle-list.ng-leave {
+	transition: all linear 0.5s;
+}
+
+.motorcycle-list.ng-leave.ng-leave-active,
+.motorcycle-list.ng-move,
+.motorcycle-list.ng-leave {
+	opacity: 0;
+	background-color: #9966FF;
+}
+
+.motorcycle-list.ng-leave,
+.motorcycle-list.ng-move.ng-move-active,
+.motorcycle-list.ng-enter.ng-enter-active {
+	opacity:1;
+	background-color: #FFFFFF;
+}
+
+img.motorcycle.selected-add {
+	display: block;
+	height: 0px;
+	margin-top: 160px;
+	margin-bottom: 160px;
+	opacity: .01;
+	transition: all linear .5s;
+}
+
+img.motorcycle.selected-add-active {
+	opacity: 1;
+	height: 320px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+img.motorcycle.selected-remove {
+	display: none;
+}
+
+img.motorcycle.selected-remove-active {
+	display: none;
+}
