@@ -6,7 +6,7 @@
 <div class="row">
 	<div class="col-sm-7 blog-main">
 		<ul>
-			<li ng-repeat="motorcycle in motorcycles | orderBy:propertyName:reverse" class="thumbnail">
+			<li ng-repeat="motorcycle in motorcycles | filter:query | orderBy:propertyName:reverse" class="thumbnail motorcycle-list">
 		        <a ng-href="#/motorcycles/{{motorcycle.Id}}/"><strong>{{motorcycle.Nombre}}</strong></a>
 		        <p>${{motorcycle.Precio}}</p>
 		        <p>{{motorcycle.Descripcion}}</p>
@@ -16,17 +16,25 @@
 
 	<div class="col-sm-5 blog-sidebar">
 		<form class="form-horizontal" role="form">
-			<label for="orderProperty" class="col-sm-2 control-label"></label>
-			<div class="col-sm-7">
-				<select class="form-control" name="orderProperty" ng-model="propertyName">
-					<option selected value="Nombre">Nombre</option>
-					<option value="Precio">Precio</option>
-				</select>
+			<div class="form-group">
+				<label for="orderProperty" class="col-sm-2 control-label">Ordenar:</label>
+				<div class="col-sm-7">
+					<select class="form-control" name="orderProperty" ng-model="propertyName">
+						<option selected value="Nombre">Nombre</option>
+						<option value="Precio">Precio</option>
+					</select>
+				</div>
+				<div class="col-sm-3">
+					<button class="btn btn-default" ng-click="reverse = !reverse">
+						<span class="sortorder" ng-class="{reverse: reverse}"></span>
+					</button>
+				</div>
 			</div>
-			<div class="col-sm-3">
-				<button class="btn btn-default" ng-click="reverse = !reverse">
-					<span class="sortorder" ng-class="{reverse: reverse}"></span>
-				</button>
+			<div class="form-group">
+				<label for="filtro" class="col-sm-2 control-label">Buscar:</label>
+				<div class="col-sm-10">
+					<input type="text" name="filtro" ng-model="query" class="form-control" placeholder="Escriba filtros aquí" />
+				</div>
 			</div>
 		</form>
 	</div>

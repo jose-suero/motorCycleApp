@@ -2,7 +2,8 @@
 var app = angular.module('motorcycleApp', [
 	'motorcycleAppControllers', 
 	'motorcycleAppServices', 
-	'ngRoute'
+	'ngRoute',
+	'ngAnimate'
 ]);
 
 app.config(function($routeProvider){ //, $locationProvider){

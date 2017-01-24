@@ -10,12 +10,13 @@ img.motorcycle {
 	margin-bottom: 2em;
 	background-color: white;
 	padding: 2em;
-	height: 400px;
+	/*height: 400px;*/
 	/*width: 400px;*/
 	display: none;
 }
 
-img.motorcycle.active {
+img.motorcycle.selected {
+  height: 320px;
   display: block;
 }
 
@@ -33,8 +34,7 @@ ul.motorcycle-thumbs li {
 }
 
 ul.motorcycle-thumbs img {
-  height: 100px;
-  /*width: 80px;*/
+  height: 80px;
   padding: 1em;
 }
 
