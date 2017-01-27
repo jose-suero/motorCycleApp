@@ -4,6 +4,8 @@
 .sortorder.reverse:after {
   content: '\25bc';   // BLACK DOWN-POINTING TRIANGLE
 }
+img.motorcycleThumbnail {
+}
 img.motorcycle {
 	float: left;
 	margin-right: 3em;

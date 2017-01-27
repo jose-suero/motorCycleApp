@@ -3,30 +3,35 @@
 		"Id": 1,
 		"Nombre": "Ducati 1199 Superleggera",
 		"Precio": 65000,
-		"Descripcion": "La firma boloñesa ya tiene lista su Panigale 1199 Superleggera, una bestia de 200 CV y tan solo 155 kilos de peso. Una moto con la última tecnología de la marca en competición pero con matrícula, faro e intermitentes"
+		"Descripcion": "La firma boloñesa ya tiene lista su Panigale 1199 Superleggera, una bestia de 200 CV y tan solo 155 kilos de peso. Una moto con la última tecnología de la marca en competición pero con matrícula, faro e intermitentes",
+		"Imagen": "img/ducati1.jpg"
 	},
 	{
 		"Id": 2,
 		"Nombre": "Indian Chief Classic",
 		"Precio": 24795,
-		"Descripcion": "Abundante potencia. Estilo atemporal. Innovación sin descanso. Y en su corazón, el legendario motor bicilíndrico en V Thunder Stroke 111. Esta es nuestra motocicleta más adornada hasta ahora. Después de un paseo, sabrás exactamente por qué. Sé legendario."
+		"Descripcion": "Abundante potencia. Estilo atemporal. Innovación sin descanso. Y en su corazón, el legendario motor bicilíndrico en V Thunder Stroke 111. Esta es nuestra motocicleta más adornada hasta ahora. Después de un paseo, sabrás exactamente por qué. Sé legendario.",
+		"Imagen": "img/indianchef1.jpg"
 	},
 	{
 		"Id": 3,
 		"Nombre": "KTM 500 EXC",
 		"Precio": 9899,
-		"Descripcion": "La moto 500 EXC-F es el modelo Enduro más poderoso del mundo, sin que ello la convierta en un abusón. Esta motocicleta es tan estilizada y civilizada como un purasangre de carreras. Pero basta con darle gas para que su nuevo motor SOHC de 4 tiempos haga volar el chasis rediseñado sobre cualquier terreno. Probablemente por delante de los competidores. Nada de sudor, solo gloria."
+		"Descripcion": "La moto 500 EXC-F es el modelo Enduro más poderoso del mundo, sin que ello la convierta en un abusón. Esta motocicleta es tan estilizada y civilizada como un purasangre de carreras. Pero basta con darle gas para que su nuevo motor SOHC de 4 tiempos haga volar el chasis rediseñado sobre cualquier terreno. Probablemente por delante de los competidores. Nada de sudor, solo gloria.",
+		"Imagen": "img/ktm1.jpg"
 	},
 	{
 		"Id": 4,
 		"Nombre": "Yamaha FZ-09",
 		"Precio": 7990,
-		"Descripcion": "La Yamaha MT-09 (FZ-09 en América del Norte) es un  motocicleta estándar de motor en línea tricilíndrica de 847 cc (51.7 cu en). Tiene el nuevo motor tipo \"desaxé\", un marco de aleación de aluminio, y horquilla invertida."
+		"Descripcion": "La Yamaha MT-09 (FZ-09 en América del Norte) es un  motocicleta estándar de motor en línea tricilíndrica de 847 cc (51.7 cu en). Tiene el nuevo motor tipo \"desaxé\", un marco de aleación de aluminio, y horquilla invertida.",
+		"Imagen": "img/yamaha1.jpg"
 	},
 	{
 		"Id": 5,
 		"Nombre": "BMW R1200RT",
 		"Precio": 17650,
-		"Descripcion": "Más comodidad para una mayor sensación de emoción. Una motocicleta que definió el segmento de la motocicleta Touring alcanza ahora la siguiente etapa de su evolución: la BMW R 1200 RT. Con su fácil manejo, la R 1200 RT hace posible disfrutar de lo más importante: conducir admirando el paisaje. Tú solo o con un acompañante: la R 1200 RT representa la comodidad, la conducción relajada en cada viaje."
+		"Descripcion": "Más comodidad para una mayor sensación de emoción. Una motocicleta que definió el segmento de la motocicleta Touring alcanza ahora la siguiente etapa de su evolución: la BMW R 1200 RT. Con su fácil manejo, la R 1200 RT hace posible disfrutar de lo más importante: conducir admirando el paisaje. Tú solo o con un acompañante: la R 1200 RT representa la comodidad, la conducción relajada en cada viaje.",
+		"Imagen": "img/bmw1.jpg"
 	}
 ]

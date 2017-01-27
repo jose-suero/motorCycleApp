@@ -13,10 +13,12 @@ angular.module('motorcycleAppControllers', [])
     }
 
     $scope.motorcycles = Motorcycle.query();
-	// $http.get('motorcycles/motorcycles.json')
-	//      .then(function(res){
-	//      	$scope.motorcycles = res.data;
-	//      });
+
+    $scope.clearQuery = function(){
+    	$scope.query = '';
+    	alert('ok');
+    	return false;
+    }
 }])
 
 .controller('motorcycleDetailsController', [
